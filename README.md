@@ -11,11 +11,11 @@
 
 ## Credits
 
-Abel Alemu 
-Martha Benitez
-Sam De Marco
-Mattene Hafiza
-Kay-Ann Williams
+- Abel Alemu 
+- Martha Benitez
+- Sam De Marco
+- Mattene Hafiza
+- Kay-Ann Williams
 
 ## License
 
