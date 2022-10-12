@@ -33,23 +33,24 @@ fetch('https://the-cocktail-db.p.rapidapi.com/list.php?c=list', options)
 var cocktailTypeBody = document.querySelector(".cocktails");
 
 for (i = 0; i < drink_type.length; i++) {
+    var cocktailColumn = document.createElement("div");
+    cocktailColumn.className = "col mb-4"
     // Create the container (card) for each cocktail category
     var cocktailCard = document.createElement("div");
-    cocktailCard.className = "card";
-    cocktailCard.setAttribute("style", "width: 1rem");
+    cocktailCard.className = "card cocktail-card";
     // Create the cocktail category image
     var cocktailImage = document.createElement("img");
     cocktailImage.src = drinkImages[i];
     cocktailImage.setAttribute("alt", "Image of " + drink_type[i]);
-    cocktailImage.className = "card-img-top";
+    cocktailImage.className = "cocktail_type";
     // Create button to go to the category page
     var cocktailTypeLink = document.createElement("a");
     cocktailTypeLink.textContent = drink_type[i];
     cocktailTypeLink.setAttribute("href", "./Ordinary_Drink.html");
-    cocktailTypeLink.className = "btn btn-primary btn-block";
+    cocktailTypeLink.className = "btn btn-primary";
     // Append new elements to the main container
     cocktailCard.appendChild(cocktailImage);
-    //cocktailCard.appendChild(cocktailType);
     cocktailCard.appendChild(cocktailTypeLink);
-    cocktailTypeBody.appendChild(cocktailCard);
+    cocktailColumn.appendChild(cocktailCard);
+    cocktailTypeBody.appendChild(cocktailColumn);
 }
