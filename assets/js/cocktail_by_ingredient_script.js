@@ -122,7 +122,7 @@ fetch('https://the-cocktail-db.p.rapidapi.com/filter.php?i='+ liqOption, options
         card.classList.add("card");
     
         const a = document.createElement("a");
-        a.setAttribute("href", '#');
+        //a.setAttribute("href", '#');
     
         const category = document.createElement("div");
         category.classList.add("category");
