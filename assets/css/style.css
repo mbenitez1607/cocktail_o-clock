@@ -1,12 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+  background-color: #2b190b;
+  /*Line below helps debug overflow elements*/
+  /*outline: solid 1px red;*/ 
+}
+
+body{
+  line-height: 1.6;
+  background-color: #2b190b;
+}
+
 .mainContainer{
-    margin: 1%;
+  background-color: #2b190b;
+  margin: 1%;
 }
 
 .navContainer{
-    background-color: black;
+    background-color: #2b190b;
     padding: 18px;
 }
 
+.recipeSection a {
+  background-color: #2b190b;
+}
 .cocktailCardSect{
     display: flex;
     flex-direction: row;
