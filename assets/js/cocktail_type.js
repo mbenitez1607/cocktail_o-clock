@@ -44,7 +44,7 @@ for (i = 0; i < drink_type.length; i++) {
     cocktailImage.setAttribute("alt", "Image of " + drink_type[i]);
     cocktailImage.className = "cocktail_type";
     // Create button to go to the category page
-    var cocktailTypeLink = document.createElement("a");
+    var cocktailTypeLink = document.createElement("button");
     cocktailTypeLink.textContent = drink_type[i];
     cocktailTypeLink.setAttribute("href", "./Ordinary_Drink.html");
     cocktailTypeLink.className = "btn btn-primary";

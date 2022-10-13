@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/cocktail_by_ingredient_style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Cocktail O'Clock - recipes by type</title>
@@ -29,17 +29,21 @@
             </li>
         </ul>
     </nav>
-    <header class="container">
-        <h1 class = "container text-center" >
-            COCKTAIL RECIPES BY TYPE
-        </h1>
+    <!-- PLACE JUMBOTRON IMAGE IN HEADER -->
+    <header id="header">
+        <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        </div>
+            <div class="container">
+                <h1 class = "container text-center" >
+                    COCKTAIL RECIPES BY TYPE
+                </h1>
+            </div>
     </header>
-    <main>
+    <!--main-->
         <div class="recipe-container">
-
         </div>
         <script src="./assets/js/cocktail_type_config.js"></script>
         <script src="./assets/js/cocktail_type.js"></script>
-    </main>
+    <!--/main-->
 </body>
 </html>
