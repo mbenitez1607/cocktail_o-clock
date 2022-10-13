@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="./assets/css/cocktail_type.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/cocktail_by_ingredient_style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>Cocktail recipes by type</title>
+    <title>Cocktail O'Clock - recipes by type</title>
 </head>
 <body>
-    <header>
-        <h1>Cocktail recipes by type</h1>
+    <nav class="navContainer">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./cocktail_type.html">Cocktail by Type</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./cocktail_by_ingredient.html">Cocktail by Ingredient</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cocktail Suggestion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Liquor History</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="container">
+        <h1 class = "container text-center" >
+            COCKTAIL RECIPES BY TYPE
+        </h1>
     </header>
     <main>
-        <div class="cocktails row row-cols-1 row-cols-md-3">
+        <div class="recipe-container">
 
         </div>
         <script src="./assets/js/cocktail_type_config.js"></script>

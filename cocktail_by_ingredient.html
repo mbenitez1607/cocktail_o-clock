@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Find a Cocktail by Ingredient</title>
+  <title>Cocktail O'Clock - recipes by Ingredient</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="./assets/css/cocktail_by_ingredient_style.css"/>
@@ -16,10 +16,25 @@
 
 <body>
     <!-- PLACE JUMBOTRON IMAGE IN HEADER -->
-    <header id="header">
-        <div class="jumbotron jumbotron-fluid bg-info text-light" style="background-image: url('./assets/images/bar.jpg')">
-        </div>
-    </header>
+    <nav class="navContainer">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./cocktail_type.html">Cocktail by Type</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./cocktail_by_ingredient.html">Cocktail by Ingredient</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cocktail Suggestion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Liquor History</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container">
         <h1 class = "container text-center" >

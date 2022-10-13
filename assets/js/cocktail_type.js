@@ -30,14 +30,14 @@ fetch('https://the-cocktail-db.p.rapidapi.com/list.php?c=list', options)
 */
 
 // Select area where cocktail types will be displayed
-var cocktailTypeBody = document.querySelector(".cocktails");
+var cocktailTypeBody = document.querySelector(".recipe-container");
 
 for (i = 0; i < drink_type.length; i++) {
     var cocktailColumn = document.createElement("div");
     cocktailColumn.className = "col mb-4"
     // Create the container (card) for each cocktail category
     var cocktailCard = document.createElement("div");
-    cocktailCard.className = "card cocktail-card";
+    cocktailCard.className = "card";
     // Create the cocktail category image
     var cocktailImage = document.createElement("img");
     cocktailImage.src = drinkImages[i];
