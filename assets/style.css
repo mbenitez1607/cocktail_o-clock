@@ -1,0 +1,39 @@
+.mainContainer{
+    margin: 1%;
+}
+
+.navContainer{
+    background-color: black;
+    padding: 18px;
+}
+
+.cocktailCardSect{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#secondPanel {
+    flex:1;
+  }
+
+.cocktailByName{
+width: 60%;
+margin-top: 2%;
+margin-right: 2%;
+}
+
+.cocktailByIngredientAndSuggestion{
+width: 35%;
+
+}
+
+.cocktailByIngredientCard{
+width: 100%;
+margin-top: 6%;
+}
+
+.cocktailSuggestion{
+  margin-top: 2%;
+    width: 100%;
+}
