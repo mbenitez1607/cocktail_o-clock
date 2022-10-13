@@ -1,7 +1,7 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'd3a3321bddmsh2a758ec37d68b6fp15937ejsndbbc83c19643',
+		'X-RapidAPI-Key': 'apiKey',
 		'X-RapidAPI-Host': 'the-cocktail-db.p.rapidapi.com'
 	}
 };
