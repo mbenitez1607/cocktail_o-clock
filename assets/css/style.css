@@ -22,6 +22,21 @@ body{
     padding: 18px;
 }
 
+.nav{
+  --bs-nav-link-hover-color: #b3793c;
+}
+
+.nav-link{
+  --bs-nav-pills-link-active-bg: #b3793c;
+}
+
+.nav-item{
+--bs-nav-link-color:#f9ca97;
+font-family: "Roboto", sans-serif;
+font-size: larger;
+font-weight: bold;
+}
+
 .recipeSection a {
   background-color: #2b190b;
 }
@@ -31,27 +46,34 @@ body{
     width: 100%;
 }
 
-#secondPanel {
-    flex:1;
-  }
+.card{
+  
+}
 
 .cocktailByName{
+font-family: "Roboto", sans-serif;
 width: 60%;
 margin-top: 2%;
 margin-right: 2%;
+--bs-card-height: 700px;
 }
 
 .cocktailByIngredientAndSuggestion{
 width: 35%;
+font-family: "Roboto", sans-serif;
 
 }
 
 .cocktailByIngredientCard{
 width: 100%;
 margin-top: 6%;
+font-family: "Roboto", sans-serif;
+--bs-card-height: 0;
 }
 
 .cocktailSuggestion{
   margin-top: 2%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+    --bs-card-height: 50%;
 }
