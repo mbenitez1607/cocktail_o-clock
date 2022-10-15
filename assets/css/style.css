@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   /*box-sizing: border-box;*/
-  background-color: #2b190b;
   /*Line below helps debug overflow elements*/
   /*outline: solid 1px red;*/ 
 }
@@ -16,6 +15,31 @@ body{
   background-color: #2b190b;
   margin: 1%;
 }
+
+.signInFormBody{
+  background-color: white;
+}
+
+.signInFormMainBody{
+  background-color: white;
+}
+
+.signInForm{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 3px solid grey;
+  padding: 10px;
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -200px;
+  background: grey;
+}
+
 
 .navContainer{
     background-color: #2b190b;
@@ -46,34 +70,32 @@ font-weight: bold;
     width: 100%;
 }
 
-.card{
-  
+.cocktailByNameContainer{
+  width: 60%;
 }
 
 .cocktailByName{
 font-family: "Roboto", sans-serif;
-width: 60%;
 margin-top: 2%;
 margin-right: 2%;
---bs-card-height: 700px;
+
 }
 
 .cocktailByIngredientAndSuggestion{
 width: 35%;
 font-family: "Roboto", sans-serif;
-
+margin-top: 2%;
 }
 
 .cocktailByIngredientCard{
 width: 100%;
-margin-top: 6%;
 font-family: "Roboto", sans-serif;
---bs-card-height: 0;
+
 }
 
 .cocktailSuggestion{
   margin-top: 2%;
     width: 100%;
     font-family: "Roboto", sans-serif;
-    --bs-card-height: 50%;
+   
 }
