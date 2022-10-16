@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   /*box-sizing: border-box;*/
-  background-color: #2b190b;
   /*Line below helps debug overflow elements*/
   /*outline: solid 1px red;*/ 
 }
@@ -17,9 +16,49 @@ body{
   margin: 1%;
 }
 
+.signInFormBody{
+  background-color: white;
+}
+
+.signInFormMainBody{
+  background-color: white;
+}
+
+.signInForm{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 3px solid grey;
+  padding: 10px;
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -200px;
+  background: grey;
+}
+
+
 .navContainer{
     background-color: #2b190b;
     padding: 18px;
+}
+
+.nav{
+  --bs-nav-link-hover-color: #b3793c;
+}
+
+.nav-link{
+  --bs-nav-pills-link-active-bg: #b3793c;
+}
+
+.nav-item{
+--bs-nav-link-color:#f9ca97;
+font-family: "Roboto", sans-serif;
+font-size: larger;
+font-weight: bold;
 }
 
 .recipeSection a {
@@ -31,27 +70,32 @@ body{
     width: 100%;
 }
 
-#secondPanel {
-    flex:1;
-  }
+.cocktailByNameContainer{
+  width: 60%;
+}
 
 .cocktailByName{
-width: 60%;
+font-family: "Roboto", sans-serif;
 margin-top: 2%;
 margin-right: 2%;
+
 }
 
 .cocktailByIngredientAndSuggestion{
 width: 35%;
-
+font-family: "Roboto", sans-serif;
+margin-top: 2%;
 }
 
 .cocktailByIngredientCard{
 width: 100%;
-margin-top: 6%;
+font-family: "Roboto", sans-serif;
+
 }
 
 .cocktailSuggestion{
   margin-top: 2%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+   
 }
