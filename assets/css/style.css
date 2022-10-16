@@ -40,7 +40,6 @@ body{
   background: grey;
 }
 
-
 .navContainer{
     background-color: #2b190b;
     padding: 18px;
@@ -64,38 +63,21 @@ font-weight: bold;
 .recipeSection a {
   background-color: #2b190b;
 }
+
+.welcomeUser{
+  text-align: center;
+ color: #b3793c;
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
 .cocktailCardSect{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  
 }
 
-.cocktailByNameContainer{
-  width: 60%;
-}
 
-.cocktailByName{
-font-family: "Roboto", sans-serif;
-margin-top: 2%;
-margin-right: 2%;
-
-}
-
-.cocktailByIngredientAndSuggestion{
-width: 35%;
-font-family: "Roboto", sans-serif;
-margin-top: 2%;
-}
-
-.cocktailByIngredientCard{
-width: 100%;
-font-family: "Roboto", sans-serif;
-
-}
-
-.cocktailSuggestion{
-  margin-top: 2%;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-   
-}
