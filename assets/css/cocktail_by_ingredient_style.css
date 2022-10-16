@@ -2,9 +2,9 @@ body{
     line-height: 1.6;
     background-color: #2b190b;
 }
-/*.container {
+.container {
   background-color: #2b190b;
-}*/
+}
 .jumbotron {
   background-image: url('../images/bar.jpg');
   background-size: cover;
@@ -13,11 +13,11 @@ body{
   color: #f9ca97;
   max-width: 50%;
 }
-.recipe-container {
+.recipe-container, .cocktail-container {
   background-color: #2b190b;
   margin: 0px;
 }
-.recipe-container .card {
+.recipe-container .card, .cocktail-container .card {
     /*width:240px;*/
     background: #bf5816;
     font-family: "Roboto", sans-serif;
@@ -26,7 +26,7 @@ body{
     position: relative;
     transition: all 400ms ease;
 }
-.recipe-container .card button {
+.recipe-container .card button, .cocktail-container .card button {
     background: #f9ca97;
     padding: 0.5em 0.5em -0.5em;
     color: #bf5816;
@@ -35,7 +35,7 @@ body{
     cursor: pointer;
   }
 
-.recipe-container .card:hover {
+.recipe-container .card:hover, .cocktail-container .card:hover {
     transform: scale(1.03);
 }
 

@@ -30,7 +30,7 @@ fetch('https://the-cocktail-db.p.rapidapi.com/list.php?c=list', options)
 */
 
 // Select area where cocktail types will be displayed
-var cocktailTypeBody = document.querySelector(".recipe-container");
+var cocktailTypeBody = document.querySelector(".cocktail-container");
 
 for (i = 0; i < drink_type.length; i++) {
     var cocktailColumn = document.createElement("div");
@@ -49,8 +49,13 @@ for (i = 0; i < drink_type.length; i++) {
     cocktailTypeLink.setAttribute("href", "./Ordinary_Drink.html");
     cocktailTypeLink.className = "btn btn-primary";
     // Append new elements to the main container
+    if (i % 4 == 0) {
+    var cocktailRow = document.createElement("div");
+    cocktailRow.className = "row mx-0";
+    cocktailTypeBody.appendChild(cocktailRow);
+    }
     cocktailCard.appendChild(cocktailImage);
     cocktailCard.appendChild(cocktailTypeLink);
     cocktailColumn.appendChild(cocktailCard);
-    cocktailTypeBody.appendChild(cocktailColumn);
+    cocktailRow.appendChild(cocktailColumn);   
 }
