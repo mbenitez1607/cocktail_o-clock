@@ -4,7 +4,20 @@ logInValidity()
 
 
 function signIn(event) {
-    event.preventDefault()
+    const forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+      form.addEventListener('click', event => {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+  
+        form.classList.add('was-validated')
+      }, false)
+    })
+   event.preventDefault()
     var emailInput = document.querySelector("#inputEmail3")
     var passwordInput = document.querySelector("#inputPassword3")
     localStorage.setItem("email", emailInput.value)
@@ -23,8 +36,8 @@ function logInValidity() {
         //if local storage is false, user returns to login page
         return
     }
-
 }
+
 
 
 
