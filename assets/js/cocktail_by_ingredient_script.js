@@ -6,7 +6,7 @@ const options = {
 	}
 };
 
-//DELCARE ALL VARIABLES
+//DECLARE ALL VARIABLES
  var liqOption = "";
  var cocktailId = 0;
  var select = document.getElementById('floatingSelect'); 
