@@ -10,9 +10,14 @@ The project has already been deployed. Visit: [Cocktail o'clock](https://mbenite
 
 ## Usage
  
-The user is presented with a basic page. When the user enters the name of a city and clicks the 'Search' button, they are presented with current and future 5-day conditions for that city.
+The user is presented with a login in page. Once logged in, they are provided with the option to search for a cocktail by type, specific ingredient, or given a random suggestion. Each image on the homepage links to categories on the nav bar.
 
-The information presented includes: the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed.
+The menus offered by the app are: 
+* Cocktail by Type provides the user with 11 different types of cocktails to explore.
+
+* Cocktail by Ingredient gives the user the 10 common ingredients in the form of a drop-down, once an ingredient is chosen from the drop-down a variety of cocktails are populated consisting of the chosen ingredient.
+
+* Cocktail Suggestion gives the user an option to click on a button to generate a random cocktail recipe.
 
 <img
   src="./assets/images/Cocktail O'Clock Homepage.png"
