@@ -11,7 +11,7 @@ function signOutUser() {
 }
 
 var welcomeUser = document.querySelector(".welcomeUser")
-welcomeUser.textContent = ("Welcome " + localStorage.getItem("email") + "!")
+welcomeUser.textContent = ("Welcome " + localStorage.getItem("username") + "!")
 
 
 //Welcome user when they log in
