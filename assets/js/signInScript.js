@@ -3,29 +3,6 @@ signInBtn.addEventListener("click", signIn)
 logInValidity()
 
 
-function signIn(event) {
-    const forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-      form.addEventListener('click', event => {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-  
-        form.classList.add('was-validated')
-      }, false)
-    })
-   event.preventDefault()
-    var emailInput = document.querySelector("#inputEmail3")
-    var passwordInput = document.querySelector("#inputPassword3")
-    localStorage.setItem("email", emailInput.value)
-    localStorage.setItem("password", passwordInput.value)
-    localStorage.setItem("login", true)
-    window.location.href = '/homepage.html';
-}
-
 function logInValidity() {
     //check if local storage login is true
     var LoggedIn = localStorage.getItem("login")
@@ -37,6 +14,33 @@ function logInValidity() {
         return
     }
 }
+
+function signIn(event) {
+    const forms = document.querySelectorAll('.needs-validation')
+    let isValid = true;
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+            if (form.checkValidity() === false) {
+                event.preventDefault()
+                event.stopPropagation()
+                form.classList.add('was-validated')
+            } else{
+                event.preventDefault()
+                var usernameInput = document.querySelector("#exampleFormControlTextarea1")
+                var passwordInput = document.querySelector("#inputPassword3")
+                localStorage.setItem("username", usernameInput.value)
+                localStorage.setItem("password", passwordInput.value)
+                localStorage.setItem("login", true)
+                window.location.href = '/homepage.html';
+            }
+           
+        }, false)
+    })
+
+}
+
+
 
 
 

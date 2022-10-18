@@ -6,7 +6,7 @@ const options = {
 	}
 };
 
-// Uncomment scetion below when ready to avoid calling the API while developing
+// Uncomment section below when ready to avoid calling the API while developing
 // Next line has temporary hardcoded values
 var drink_type = ["Ordinary Drinks","Cocktails","Shaken","Other/Unknown","Cocoa",
                 "Shots","Coffee / Tea","Homemade Liqueurs","Punches / Party Drinks",
