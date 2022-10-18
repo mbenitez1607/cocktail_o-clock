@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />  
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/cocktail_by_ingredient_style.css"/>
-    <title>Cocktail O'Clock - recipes by type</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <title>Cocktail O'Clock - recipes by type</title>
 </head>
 <body>
     <nav class="navContainer">
@@ -34,13 +37,14 @@
     <!-- PLACE JUMBOTRON IMAGE IN HEADER -->
     <header id="header">
         <div class="jumbotron jumbotron-fluid bg-dark text-light">
-            <h1 class = "container-fluid text-center">
+            <h1 id="jumboTitle" class = "container-fluid text-center">
                 COCKTAIL RECIPES BY TYPE
             </h1>
         </div>
     </header>
     <main class="cocktail-container">
-        <script src="./assets/js/cocktail_type_config.js"></script>
+        <!-- Comment out line below since var substitution doesn't seem to work-->
+        <!--script src="./assets/js/cocktail_type_config.js"></script-->
         <script src="./assets/js/cocktail_type.js"></script>
     </main>
 </body>
