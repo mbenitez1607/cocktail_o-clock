@@ -8,7 +8,7 @@ function logInValidity() {
     var LoggedIn = localStorage.getItem("login")
     if (LoggedIn == "true") {
         //display homepage if user is logged in
-        window.location.href = '../../homepage.html';
+        window.location.href = './homepage.html';
     } else {
         //if local storage is false, user returns to login page
         return
@@ -32,7 +32,7 @@ function signIn(event) {
                 localStorage.setItem("username", usernameInput.value)
                 localStorage.setItem("password", passwordInput.value)
                 localStorage.setItem("login", true)
-                window.location.href = '../../homepage.html';
+                window.location.href = './homepage.html';
             }
            
         }, false)
