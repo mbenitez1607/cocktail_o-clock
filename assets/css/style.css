@@ -86,5 +86,76 @@ font-weight: bold;
   object-fit: cover;
 }
 
+.modal {
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    /* margin-left: 220px; 
+    margin-right: 220px;  */
+
+    top: 0;
+    height: 25%;
+    width: 50%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    margin: 10% auto;
+    width: 100%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    /* margin-left: 300px; */
+    left: 50%;
+  }
+  
+  .modal-header h2,
+  .modal-footer h3 {
+    margin: 0;
+    text-align: left;
+    float: left;
+
+    
+  }
+  
+  .modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: black;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .modal-body {
+    padding: 10px 20px;
+    background: #fff;
+  }
+  
+  .modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .close {
+    color: #ccc;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 
 
