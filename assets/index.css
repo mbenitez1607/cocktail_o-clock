@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2b190b;
+    height: 150px;
+    padding: 0;
+    
+}
+
+.body{
+    background-color:#2b190b;
+}
+
+
+
+.image {
+    height: 300px;
+    width: 100px;
+    margin: 20px;
+    border: none;
+}
+
+.Container {
+    border-right: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+    margin-right: 20%;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+.h1{
+    display:flex;
+    flex-wrap: wrap;
+    display: flex;
+    height: fit-content;
+}
+
+button{
+    display:flex;
+    height: 60px;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color:silver;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color:black;
+    color:black;
+    padding: .5px .7px;
+    border-radius: .25rem;
+    margin-bottom: 2px;
+    
+}
+.header {
+
+    background:black;
+    margin-bottom: 10%;
+}
+
+
+
+#name-of-cocktail{
+    height: 100px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex; 
+    
+}
+
+.cocktail-instruction {
+ height: 400px;
+    width: 600px;
+    color: white;
+display: flex;
+
+
+}
+
+.ingredients {
+    height: 200px;
+    width: 400px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#instruction {
+    color: white;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding-top: 0%;
+}
+
+#cocktail-image{
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    border: none;
+    margin-left: 20%;
+
+}
+
+
+#name-of-ingredients{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 10px;
+   margin-left: 15%;
+   margin-right: 20%;
+   padding-right: 13px;
+   height: auto;
+
+
+}
+
+#mesurments{
+    color: white;
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+
+.ingredients{
+    height: auto;
+    width: auto;
+}
+    
