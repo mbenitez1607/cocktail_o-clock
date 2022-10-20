@@ -19,10 +19,7 @@ The menus offered by the app are:
 
 * Cocktail Suggestion gives the user an option to click on a button to generate a random cocktail recipe.
 
-<img
-  src="./assets/images/Cocktail O'Clock Homepage.png"
-  alt="Screenshot of the Cocktail O'Clock Homepag"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+![image](https://user-images.githubusercontent.com/56706010/196839264-89c41015-e806-478c-993c-405b59f23b92.png)
 
 ## Credits
 
